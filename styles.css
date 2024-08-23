@@ -1,0 +1,203 @@
+/* Estilo de la cabecera */
+/*Para el fondo de la página*/
+body{
+    background-color: rgb(241, 241, 241); /*gris*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Estilo de la cabecera*/
+header {
+    background-color: #333; /*color gris fuerte oscuro para cabecera*/
+   
+    padding: 15px; /*espacio hacia adentro desde el mborde de la pagina*/
+    text-align: center; /*centralizar texto*/
+    border: 1px solid #000; /*le genera un borde a toda la cabecera, innecesario*/
+    color: #fff; /*color blanco para las letras de la cabecera*/
+    margin: 0; /*para eliminar margenes predeterminados de otros elementos (h1,h2 p etc)*/
+    font-size: 10px; /*Tamaño de la letra*/
+    font-weight: normal; /*Peso de lafuente, grosor*/
+}
+
+/* Estilo para todas las secciones */
+section {
+    margin: 10px; /*espacio del brode de la pagina hacia adetro*/
+    background-color: #f9f9f9; /* Fondo gris claro de la seccion*/
+    border: 1px solid #ddd; /* Borde gris claro de toda la seccion*/
+    padding: 20px; /*Crea un área de espacio dentro del elemento, empuja el contenido hacia adentro desde el borde(desde la seccion)*/
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    border-radius: 8px;
+}
+
+/* Estilo para la sección de propiedades de texto en CSS */
+section.text-properties {
+    background-color: #f9f9f9; /* Fondo gris claro de la seccion*/
+    border: 1px solid #ddd; /* Borde gris claro de toda la seccion*/
+    padding: 20px; /*Crea un área de espacio dentro del elemento, empuja el contenido hacia adentro desde el borde(desde la seccion)*/
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    border-radius: 8px;
+}
+
+/* Estilo para el título de la nueva sección */
+ h2 {
+    font-size: 18px; /*Tamaño de letra*/
+    text-align: left; /*alinea el texto a la izquierda, innnecesario*/
+    margin-bottom: 10px; /*añade un espacio en blanco debajo del borde inferior del elemento, separandolo del siguiente elemento, probar*/
+    border-bottom: 2px solid #000; /* Línea negra debajo del título */
+    padding-bottom: 5px; /*espacio enrte elemento interior y borde inferior, y linea negra*/
+}
+
+/* Estilo para el párrafo subrayado */
+.subrayado {
+   /* font-weight: bold; color negrito */
+   text-transform: capitalize; /*para que la primer letra sea en mayuscula*/
+   text-decoration: underline; /*subrayar texto*/
+   text-decoration-thickness: 1px;
+   text-align: left; /*Ubica texto hacia la Izquierda*/
+   display: inline-block;
+   margin-top: 5px; /*reduce margen superior del parrafo subrayado para acercarlo a la linea negra de arriba*/
+   margin-bottom: 15px;/*espacio en blanco que se deja debajo del elemento, separándolo del siguiente elemento*/
+}
+
+/* Estilo específico para el blockquote  */
+section.text-properties blockquote {
+   font-size: 16px; /*tamaño de letra*/
+   text-align: left; /*alinearlo a la izquierda*/
+   color: gray; /*color de letra*/
+   font-style: italic; /*estilo de letra*/
+   border-left: 4px solid #ddd; /* Borde gris claro */
+   padding-left: 15px; /*para separacion entre solido y oración*/
+   margin: 10px 0; /*margenes superior e inferior de 10 y los costados 0*/
+   background-color: #f2f2f2; /* Fondo gris más claro */
+   padding: 10px; /* Espaciado interno(margen dentro del fondo mas claro y la oración)*/
+}
+
+
+section.box-properties {
+    background-color: #f9f9f9; /* Fondo gris claro de la seccion*/
+    border: 1px solid #ddd; /* Borde gris claro de toda la seccion*/
+    padding: 20px; /*Crea un área de espacio dentro del elemento, empuja el contenido hacia adentro desde el borde(desde la seccion)*/
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    border-radius: 8px;
+}
+ 
+ /* Estilo para las cajas (Propiedades de caja en CSS) */
+ .caja {
+    background-color: #f9f9f9; /* Fondo gris claro */
+    padding: 15px; /* Espaciado interno */
+    margin-bottom: 10px; /* Margen inferior para separar las cajas */
+    border: 1px solid #000000; /* Borde negro claro */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    border-radius: 5px; /* Bordes redondeados */
+}
+ 
+
+ /* Estilo para la caja destacada */
+ .caja.destacada {
+     background-color:rgb(236, 203, 143); /* Fondo amarillo pálido */
+     border: 3px solid black; /* Borde naranja más grueso */
+     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+ }
+ section.position-section{
+    background-color: #f9f9f9; /* Fondo gris claro de la seccion*/
+    border: 1px solid #ddd; /* Borde gris claro de toda la seccion*/
+    padding: 20px; /*Crea un área de espacio dentro del elemento, empuja el contenido hacia adentro desde el borde(desde la seccion)*/
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    border-radius: 8px;
+}
+/* Contenedor con posición relativa */
+.relativo {
+    position: relative; /* Posición relativa */
+    background-color: #e0f7fa; /* Fondo azul claro */
+    padding: 25px;
+    margin-top: 10px; /* Espacio por encima del contenedor */
+    margin-bottom: 30px; /* Margen inferior */
+   
+}
+
+/* Contenedor con posición absoluta dentro de la caja relativa */
+.absoluto {
+    position: absolute; /* Posición absoluta */
+    bottom: -30px; /* Desplaza 10px hacia abajo, extendiéndose fuera del borde inferior y sobre él */
+    right: 30px; /* desplaza hacia la izquierda */
+    background-color: #4caf50; /* Fondo verde */
+    padding: 15px 20px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    color: white; /* Color de texto blanco */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+/* Contenedor de la cuadrícula */
+.grid-container {
+    display: grid; /* Activa el modo grid */
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Define las columnas una al lado de la otra  */
+    gap: 10px; /* Espacio entre los elementos */
+    padding: 20px; /* Padding alrededor del contenedor */
+}
+
+/* Estilo para cada ítem de la cuadrícula */
+.grid-item {
+    background-color: #5a67d8; /* Fondo azul */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Alineación del texto al centro */
+    color: white; /* Color de texto blanco */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+
+
+/* Cuadrado que cambia de color al pasar el mouse */
+.animacion {
+    width: 100px; /*ancho del cuadrado*/
+    height: 100px; /*Alto del cuadrado*/
+    background-color: red; /*color */
+    transition: background-color 5s ease; /*Tiempo en que tarda en cambiar de al color violeta*/
+    margin-bottom: 20px; /*margen por debajo del cuadrado rojo*/
+}
+
+/* Cambia el color del cuadrado al pasar el mouse */
+.animacion:hover {
+    background-color: rgb(81, 35, 156); /**/
+}
+
+/* Círculo que se mueve de izquierda a derecha */
+.mover {
+    width: 100px; /*ancho*/
+    height: 100px; /*alto*/
+    background-color: green;
+    border-radius: 50%; /*le da forma*/
+    animation: mover 3s infinite linear; /*Tiempo del movimiento*/
+}
+
+/* Definición de la animación de movimiento(con @keyframes ) */
+@keyframes mover { /* se define animacion "mover"*/
+    0% { /*0 indica el inicio*/
+        transform: translateX(0px); /*el origen desde donde empieza está a 0px*/
+    }
+    100% { /*Indica destino*/
+        transform: translateX(300px); /* Punto B: se ha movido 300px a la derecha */
+    }
+
+
+}
+
+@media (max-width: 768px) {
+    /* Ajustar el fondo del cuerpo para que sea violeta claro */
+    body {
+        background-color: #E6E6FA; /* Fondo violeta claro */
+        padding: 0; /* Elimina el padding del body */
+        margin: 0; /* Elimina el margen del body */
+    }
+
+    /* Ajustar la cabecera para que ocupe todo el ancho de la pantalla */
+    header {
+        width: 100%; /* Ocupa el 100% del ancho del contenedor */
+        background-color: #333; /* Mantén el fondo gris oscuro */
+        color: white; /* Color de texto blanco */
+        padding: 15px;
+        text-align: center; /* Centrar el texto */
+        box-sizing: border-box; /* Incluye padding en el cálculo del ancho */
+        margin: 0; /* Elimina márgenes adicionales */
+    }
+
+   
+}
