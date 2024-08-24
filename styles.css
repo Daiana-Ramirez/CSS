@@ -10,11 +10,11 @@ header {
    
     padding: 15px; /*espacio hacia adentro desde el mborde de la pagina*/
     text-align: center; /*centralizar texto*/
-    border: 1px solid #000; /*le genera un borde a toda la cabecera, innecesario*/
+    border: 1px solid #000; /*le genera un borde a toda la cabecera*/
     color: #fff; /*color blanco para las letras de la cabecera*/
     margin: 0; /*para eliminar margenes predeterminados de otros elementos (h1,h2 p etc)*/
     font-size: 10px; /*Tamaño de la letra*/
-    font-weight: normal; /*Peso de lafuente, grosor*/
+    font-weight: normal; /*Peso de la fuente, grosor*/
 }
 
 /* Estilo para todas las secciones */
