@@ -2,7 +2,7 @@
 /*Para el fondo de la página*/
 body{
     background-color: rgb(241, 241, 241); /*gris*/
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif; 
 }
 /*Estilo de la cabecera*/
 header {
@@ -39,10 +39,10 @@ section.text-properties {
 /* Estilo para el título de la nueva sección */
  h2 {
     font-size: 18px; /*Tamaño de letra*/
-    text-align: left; /*alinea el texto a la izquierda, innnecesario*/
-    margin-bottom: 10px; /*añade un espacio en blanco debajo del borde inferior del elemento, separandolo del siguiente elemento, probar*/
+    text-align: left; /*alinea el texto a la izquierda*/
+    margin-bottom: 10px; /*añade un espacio en blanco debajo del borde inferior del elemento, separandolo del siguiente elemento*/
     border-bottom: 2px solid #000; /* Línea negra debajo del título */
-    padding-bottom: 5px; /*espacio enrte elemento interior y borde inferior, y linea negra*/
+    padding-bottom: 5px; /*espacio entre elemento interior y borde inferior, y linea negra*/
 }
 
 /* Estilo para el párrafo subrayado */
